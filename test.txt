@@ -1,1 +1,9 @@
 test 
+
+git init
+git switch main
+git switch -c nombranch
+git add test.txt
+git commit -m "Initial commit"
+git switch main
+git merge  --no-ff nombranch
